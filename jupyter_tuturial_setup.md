@@ -14,7 +14,7 @@ source caffe2_tutorials/bin/activate
 brew install protobuf@3.1 lmdb
 ```
 * [Install Caffe2](https://caffe2.ai/docs/getting-started.html?platform=mac&configuration=compile)
-** Remember to install matching protobuf using brew and python
+  * Remember to install matching protobuf using brew and python
 ```
 pip install \
 flask \
@@ -42,7 +42,7 @@ sudo make install
 cd <caffe2 directory>
 ./scripts/start_ipython_notebook.sh
 ```
-** If ipython notebook kernel error, need to reset the kernel.json
+  * If ipython notebook kernel error, need to reset the kernel.json
 ```
 jupyter kernelspec install-self --user
 ```
